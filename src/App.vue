@@ -125,7 +125,7 @@ onMounted(() => {
         /> -->
         <button
           @click="addTodo"
-          class="bg-blue-500 hover:opacity-80 hover:transition hover:ease-in-out hover:duration-200 px-5 w-1/6 rounded-lg text-white"
+          class="bg-blue-500 hover:opacity-80 hover:transition hover:ease-in-out hover:duration-200 w-1/6 rounded-lg text-white"
         >
           <svg
             class="mx-auto hover:rotate-45 hover:transition hover:ease-in-out hover:duration-200"
