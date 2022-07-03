@@ -1,7 +1,52 @@
-# Vue 3 + Vite
+## Created with ❤
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Developed by [Davian](https://iamdavian.com/)
 
-## Recommended IDE Setup
+## Clone the project
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+```sh
+git clone https://github.com/popskully/todo-app.git
+```
+
+## Switch to project directory
+
+```sh
+cd todo-app
+```
+
+## Install npm
+
+```sh
+npm install
+```
+
+## Install tailwind
+
+```sh
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+npm run test:unit
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
