@@ -63,7 +63,7 @@ onMounted(() => {
       <h2 class="text-2xl max-w-full font-bold text-gray-700">
         Hi there,
         <input
-          class="bg-transparent focus:outline-none"
+          class="bg-transparent focus:outline-none w-3/5"
           type="text"
           placeholder="Name here"
           v-model="name"
